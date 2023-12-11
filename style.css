@@ -1,0 +1,11 @@
+body{
+    background-color: grey;
+    color: white;
+
+}
+
+header{
+    background-color: black;
+    position: relative;
+    color: red;
+}
