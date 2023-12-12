@@ -1,16 +1,4 @@
 body{
-<<<<<<< HEAD
-    background-color: grey;
-    color: white;
-
-}
-
-header{
-    background-color: black;
-    position: relative;
-    color: red;
-}
-=======
     background-image: url(hatter.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -114,5 +102,4 @@ header{
     font-size: 500%;
 
   }
-  
->>>>>>> main
+
