@@ -7,7 +7,7 @@ body{
 
 .MainDiv {
     width: 90%;
-    height: 850px;
+    min-height: 850px;
     background-color: wheat;
     display: flex;
     margin: auto;
@@ -102,4 +102,75 @@ body{
     font-size: 500%;
 
   }
-  
+
+  .DIV1 {
+    margin-left: 20px;
+    border: 2px black solid;
+    margin-right: auto;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: initial; 
+    transition: 1.6s; 
+    margin-bottom: 20px;
+  }
+  .DIV2 {
+    margin-right: 20px;
+    border: 2px black solid;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: initial; 
+    transition: 1.6s; 
+    margin-bottom: 20px;
+  }
+  .DIV1:hover{
+    
+      font-size: larger;
+      width: 40%;
+     
+
+  }
+  .DIV2:hover{
+    
+    font-size: larger;
+    width: 40%;
+   
+
+}
+.slideshow-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  border: 4px solid white;
+  margin-bottom: 20px;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.active {
+  display: block;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Fallback for browsers that do not support animations */
+.no-animation .fade {
+  animation: none;
+}
