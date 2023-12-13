@@ -313,3 +313,84 @@
 
 
 }
+
+.tanDiv1{
+  background-color: #bbd5ed;
+  color: #1f3864;
+  border: #1f3864 2px solid;
+
+
+}
+.tanitoDIV1{
+  margin: auto;
+  background-color: #1f3864;
+  color: #bbd5ed;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  padding: 25px;
+
+
+}
+.NAVNAV1{
+  margin: auto;
+  margin-top: 20px;
+  width: 60%;
+
+
+}
+.NAVLINK1{
+  margin: auto;
+  text-decoration: none;
+  color: #bbd5ed;
+
+}
+.NAVLINK1:hover{
+  background-color: #bbd5ed;
+  color: #1f3864;
+  padding: 8px;
+  transition: 1s;
+
+
+}
+
+.tanDiv2{
+  background-color: #ccffcc;
+  color: #385723;
+  border: #385723 2px solid;
+
+
+}
+.tanitoDIV2{
+  margin: auto;
+  background-color: #385723;
+  color: #ccffcc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  padding: 25px;
+
+
+}
+.NAVNAV2{
+  margin: auto;
+  margin-top: 20px;
+  width: 60%;
+
+
+}
+.NAVLINK2{
+  margin: auto;
+  text-decoration: none;
+  color: #ccffcc;
+
+}
+.NAVLINK2:hover{
+  background-color: #ccffcc;
+  color: #385723;
+  padding: 8px;
+  transition: 1s;
+
+
+}
+
